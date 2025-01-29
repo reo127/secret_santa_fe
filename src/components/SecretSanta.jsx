@@ -46,7 +46,7 @@ export default function SecretSanta() {
         formData.append('lastYearList', lastYearFile);
       
         try {
-          const response = await fetch('http://localhost:8000/api/secret-santa', {
+          const response = await fetch('https://secret-santa-be.vercel.app/api/secret-santa', {
             method: 'POST',
             body: formData,
           });
