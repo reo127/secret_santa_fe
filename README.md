@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 🎅 Secret Santa Assignment System (Frontend)  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Project Overview  
+### 🔗 Live Preview [Click Here](https://secret-santa-fe-gilt.vercel.app/)  
 
-## Available Scripts
+The **Secret Santa Assignment System** frontend is a React-based web application designed to automate the process of assigning anonymous gift recipients (Secret Children) to employees for the annual Secret Santa event. The system ensures assignments are fair and follows specific rules, such as:  
 
-In the project directory, you can run:
+Primary work of front-end was handling api because assignment of secret santa was happening from the back-end 
 
-### `npm start`
+- An employee cannot be their own Secret Santa.  
+- No repeat assignments from the previous year's event.  
+- Each employee has exactly one unique Secret Child.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This frontend application makes API calls to the backend service for data processing and displays assignment results in a user-friendly interface.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Features  
+- **Automated Secret Santa Assignment:** Interactive interface for viewing employee assignments.  
+- **API Integration:** Connects with backend services to fetch and display assignments.  
+- **Excel File Upload:** Users can upload employee and previous assignment data.  
+- **Modern Design:** Intuitive and responsive user interface using React.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Getting Started  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1️⃣ Prerequisites  
+Make sure you have the following installed:  
+- Nodejs 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2️⃣ Installation  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository:**  
+   ```bash
+   git clone https://github.com/reo127/secret_santa_fe
+   cd secret_santa_fe
+   npm install
+   npm start
+   ```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+make sure you already have the back-end up and running, to run back-end follow this [repo](https://github.com/reo127/secret_santa_be)
